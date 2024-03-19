@@ -25,6 +25,19 @@ let myObj={
 
 }
 const myFunction = function(){
-console.log("heyuuyyyyyyyyyyy");
+// console.log("heyuuyyyyyyyyyyy");
 }
-console.log(typeof heroes);
+// console.log(typeof heroes);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive)copyvalue, Heap(non-primitive)referrencevalue
+
+
+let myYoutubename = 'hiteshchoudhary.com'
+let anotherename = myYoutubename
+anotherename = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherename)
